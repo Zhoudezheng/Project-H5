@@ -1,0 +1,115 @@
+/*a标签设置宽高转换行内块*/
+.ua li>a{
+    display: inline-block;
+    width: 28px;
+    height: 27px;
+    background: #333333;
+    background-image: url("../img/All_logo.png");
+    /*border: 1px solid red;*/
+}
+.a1{
+    width: 15px !important;
+    height: 27px !important;
+    background-position: -14px -1678px!important;
+    filter: grayscale(100%);
+}
+.a1:hover,.a2:hover,.a3:hover,.a4:hover{
+    filter: grayscale(0%);
+}
+.a2{
+    background-position: -6px -1858px !important;
+    filter: grayscale(100%);
+}
+.a3{
+
+    background-position: -6px -1768px !important;
+    filter: grayscale(100%);
+}
+.a4{
+
+    background-position: -6px -1723px !important;
+    filter: grayscale(100%);
+}
+/*友情链接居中*/
+.auto_sp{
+    margin: auto 0 ;
+}
+/*订阅按钮行高*/
+.lh_a{
+    line-height: 30px;
+    padding-left:  20px;
+    padding-right:  20px;
+}
+
+/*下边框颜色*/
+.btf_gray{
+    border-bottom: 1px solid  gray;
+}
+
+/*a咨询客路大小*/
+.a_size{
+    width: 212px;
+    height: 40px;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 40px;
+    color:gray;
+}
+.a_size:hover{
+    color: white;
+    text-decoration: none;
+}
+
+/*底部ul支付方式*/
+.u2 li>span{
+    display: inline-block;
+    width: 45px;
+    height: 30px;
+    background: #333333;
+    background-image: url("../img/All_logo.png");
+    /*border: 1px solid red;*/
+    margin: 0 10px;
+
+}
+.s1{
+    background-position: 1px -675px !important;
+}
+.s2{
+    background-position: 1px -704px !important;
+}
+.s3{
+    background-position: -2px -588px !important;
+}
+.s4{
+    background-position: 1px -617px !important;
+}
+.s5{
+    background-position: 1px -733px !important;
+}
+
+/*语言select*/
+.select{
+    background-color: #333333;
+    color: white;
+}
+
+/*底部中间小字体ul*/
+.u3 p{
+    color: white;
+    font-weight: bold;
+}
+.u3 a{
+    color: gray;
+
+}
+.u3 a:hover{
+    color: white;
+    text-decoration: none;
+
+}
+
+/*整体背景颜色 字体颜色*/
+.body-bgcolor{
+    background-color: #333333;
+    color: gray;
+}

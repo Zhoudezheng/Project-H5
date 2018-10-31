@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+}
+*{
+    box-sizing:border-box;
+}
+/*设置小字体*/
+.my_small{
+    font-size: 0.8rem;
+}
+/*最小号字体*/
+.my_min{
+    font-size: 0.5rem;
+}
+/*中号字体*/
+.my_middle{
+    font-size: 0.9rem;
+}
+/*导航栏的字体*/
+.small_font{
+    font-size: 0.95rem;
+    font-family:"klookfont"
+}
+
+/*设置外边距上下为0左右居中*/
+.mg_auto{
+    margin:0 auto;
+}
+.mg_auto2{
+    margin: auto 0;
+}
+
+/*设置内边距上下为0左右居中*/
+.pd_auto{
+    padding:0 auto;
+}
+/*橙色背景按钮*/
+.a_bg{
+    background-color: #FF5722;
+}
+/*图片位移*/
+.a_wy{
+    transition: all 1s linear;
+}
+.a_wy:hover{
+    transform: translate(0,10px);
+
+}
+.hot_address>div{
+    transition: all .2s ease-in;
+
+}
+.hot_address>div:hover{
+    transform: translateY(-5px);
+
+
+}
+
+/*去a标签下划线*/
+.a_decoration{
+    text-decoration: none !important;
+}
+/*文字居中*/
+.text_center{
+    text-align: center!important;
+}
